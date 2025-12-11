@@ -1,0 +1,25 @@
+/* roots */
+:root{
+  --white : white;
+  --black : black;
+  --yellow : rgba(255, 255, 0, 1);
+  --orange : rgba(241, 149, 70, 255);
+  --blue : rgba(6, 90, 162, 255);
+  --cyan : rgba(128, 210, 229, 255);
+  --darkBlue : rgba(0, 75, 173, 255);
+  --pageHeight : 900px;
+  --navItemHover : rgba(0, 218, 255, 1);
+}
+
+/* logo */
+.logo img{
+    filter : brightness(0) invert(1) !important;
+}
+
+/* nav bar */
+.navbar{
+    background-color: var(--darkBlue);
+}
+.nav-link{
+    color: white !important;
+}

@@ -1,0 +1,18 @@
+/* Chrome, Edge, Safari */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+html,
+body {
+  scrollbar-width: none;      /* Firefox */
+  -ms-overflow-style: none;   /* old IE / Edge */
+}
+
+/* Keep scrolling but hide the bar */
+html,
+body {
+  overflow-y: scroll;
+}
